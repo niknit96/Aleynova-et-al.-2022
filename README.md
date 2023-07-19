@@ -2,7 +2,7 @@ To repeat the data from this article, follow these steps:
 
 1. Install mamba or conda on Linux:
 * mamba: https://github.com/mamba-org/mamba (more faster than conda)
-* nconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+* conda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 2. Download code and data from Github:
 ```
 wget https://github.com/niknit96/Aleynova_et.al.2023/archive/master.zip
