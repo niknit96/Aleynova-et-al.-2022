@@ -1,8 +1,8 @@
 To repeat the data from this article, follow these steps:
 
 1. Install mamba or conda on Linux:
-a) mamba: https://github.com/mamba-org/mamba (more faster than conda)
-b) conda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+\nmamba: https://github.com/mamba-org/mamba (more faster than conda)
+\nconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 2. Download code and data from Github:
 ```
 wget https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/niknit96/Aleynova-et-al.-2023
