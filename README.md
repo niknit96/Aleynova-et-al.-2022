@@ -24,7 +24,12 @@ bash ./Aleynova_et.al.2023-main/download.sh
 mamba env create --file ./Aleynova_et.al.2023-main/Aleynova_et.al.2023.yml || conda env create --file ./Aleynova_et.al.2023-main/Aleynova_et.al.2023.yml
 mamba activate Aleynova_et.al.2023 || conda activate Aleynova_et.al.2023
 ```
-6. Run bash script for analysis data:
+6. Download and install qiime2R package (accessed on 19 July 2023):
 ```
-bash ./Aleynova_et.al.2023-main/script.sh
+Rscript -e 'devtools::install_github("jbisanz/qiime2R")'
 ```
+7. Run bash script for analysis data:
+```
+bash ./Aleynova_et.al.2023-main/analysis.sh
+```
+8. Results in ./Aleynova_et.al.2023-main.
