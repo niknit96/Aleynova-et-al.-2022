@@ -144,7 +144,7 @@ physeq_info_after_filtration_V_USA = filter_taxa(prune_samples("V. vinifera-USA"
 Taxa_of_genus_level = rbind(
 paste("Taxa of genus level before filtration in V. amurensis samples:", length(taxa_names(physeq_info_before_filtration_V_amur))),
 paste("Taxa of genus level before filtration in V. coignetiae samples:", length(taxa_names(physeq_info_before_filtration_V_coig))),
-paste("Taxa of genus level before filtration in V. vinifera-USA samples:", length(taxa_names(physeq_info_after_filtration_V_USA))),
+paste("Taxa of genus level before filtration in V. vinifera-USA samples:", length(taxa_names(physeq_info_before_filtration_V_USA))),
 paste("Taxa of genus level with relative abundance > 0.1% in V. amurensis samples:", length(taxa_names(physeq_info_after_filtration_V_amur))),
 paste("Taxa of genus level with relative abundance > 0.1% in V. coignetiae samples:", length(taxa_names(physeq_info_after_filtration_V_coig))),
 paste("Taxa of genus level with relative abundance > 0.1% V. vinifera-USA samples:", length(taxa_names(physeq_info_after_filtration_V_USA)))
